@@ -23,4 +23,3 @@ if ($conn->multi_query($sql) === TRUE) {
 
 $conn->close();
 ?>
-
