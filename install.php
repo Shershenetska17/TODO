@@ -1,13 +1,9 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 $host = "liza-db17.mysql.database.azure.com";
-$username = "lizaadmin";
+$username = "lizaadmin"; // ← to zmieniamy
 $password = "Liza1234Z";
 
-// Tworzymy połączenie z MySQL na porcie 3306 bez wskazania bazy
-$conn = new mysqli($host, $username, $password, "", 3306);
+$conn = new mysqli($host, $username, $password);
 
 if ($conn->connect_error) {
     die("❌ Błąd połączenia: " . $conn->connect_error);
