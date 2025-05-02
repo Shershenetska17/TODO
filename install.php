@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $host = "liza-db17.mysql.database.azure.com";
-$username = "lizaadmin@liza-db17";
+$username = "lizaadmin";
 $password = "Liza1234Z";
 
 // Tworzymy połączenie z MySQL na porcie 3306 bez wskazania bazy
